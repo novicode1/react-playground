@@ -1,0 +1,11 @@
+.tip {
+	transition-duration: 150ms;
+}
+
+.tip:empty {
+	display: none;
+}
+
+.cursorHelp {
+	cursor: help;
+}

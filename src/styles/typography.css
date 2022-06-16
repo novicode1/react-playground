@@ -1,0 +1,183 @@
+html {
+	font-size: 100%; /* 16px */
+}
+
+body {
+  font-family: 'SF UI Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em; /* 16px */
+  line-height: 1.2;
+  color: #111;
+  background: #fff;
+  cursor: default;
+	overflow: overlay;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 0 0 0.5em;
+	font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 0.5em;
+	font-weight: 600;
+}
+
+h3 {
+  font-size: 1.375em;
+  margin: 0 0 0.5em;
+	font-weight: 500;
+}
+
+h4 {
+  font-size: 1.125em;
+  margin: 0 0 0.5em;
+	font-weight: 500;
+}
+
+h5 {
+  font-size: 1em;
+  margin: 0 0 0.5em;
+	font-weight: 500;
+}
+
+h6 {
+  font-size: 0.875em;
+  margin: 0 0 0.5em;
+	font-weight: 500;
+}
+
+a {
+  font-size: 1em;
+  cursor: pointer;
+  touch-action: manipulation;
+  text-decoration: none;
+	box-shadow: none;
+	background: transparent;
+  color: #007AFE;
+  transition: opacity var(--smooth-animation), color var(--smooth-animation);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+p {
+	margin-block-start: 0;
+	color: #333;
+	font-size: 1em;
+	letter-spacing: 0.01rem;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px solid rgba(131,192,253,.5);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+*:focus:hover {
+  box-shadow: none;
+}
+
+strong, b {
+  font-weight: bolder;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+p {
+	margin-block-start: 0;
+}
+
+ul,
+ol,
+article p {
+  margin: 0 0 1em;
+}
+
+ul,
+ol {
+	padding: 0;
+	font-size: 1em;
+}
+
+ul li, ol li {
+	padding: 0;
+	margin: 0 0 0.25em 0;
+	list-style: none;
+	position: relative;
+}
+
+hr {
+  height: 1px;
+  margin: 0 0 1em;
+	display: block;
+	width: 100%;
+  background: #eee;
+  border: none;
+}
+
+button {
+	box-shadow: none;
+	font-weight: 500;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 0.5em;
+	font-size: 1em;
+  border: none;
+	background: #eee;
+  color: #333;
+  padding: 0.5em 1em;
+  touch-action: manipulation;
+  transition: opacity var(--smooth-animation), color var(--smooth-animation);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* for Chrome, Opera, Android, Safari */
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+  background: none;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 7px solid transparent;
+  background: rgba(212, 214, 219, 0.5);
+  background-clip: padding-box;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button ::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+  display: none;
+}
+
+/* for firefox */
+
+* {
+  scrollbar-color: rgba(212, 214, 219, 0.5) transparent;
+  scrollbar-width: thin;
+}
+
+svg {
+  overflow: visible;
+}

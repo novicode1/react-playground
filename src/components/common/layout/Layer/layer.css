@@ -1,0 +1,29 @@
+/* expandable left-right-top-bottom panels */
+.layerSidePanel {
+	z-index: 10 !important;
+}
+
+/* tooltips, dropdowns, etc.*/
+.layerFlyout {
+	z-index: 11 !important;
+}
+
+/* modal windows, pages displayed in modals, modal forms, modal dialogs, other modal notifications */
+.layerOverlay {
+	z-index: 10 !important;
+}
+
+/* toast notifications, etc. */
+.layerNotification {
+	z-index: 12 !important;
+}
+
+/* lock-screen or splashscreen that should prevent the usage of the whole application */
+.layerLock {
+	z-index: 13 !important;
+}
+
+/* critical alarm popup messages */
+.layerCritical {
+	z-index: 14 !important;
+}

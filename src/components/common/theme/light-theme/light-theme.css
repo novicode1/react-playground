@@ -1,0 +1,10 @@
+.light-theme {
+	--color-text-default: #595858;
+	--color-text-primary: #111;
+	--color-text-secondary: #999;
+
+	--color-background-default: #fff;
+	--color-background-primary: #eee;
+	--color-background-secondary: #fafafa;
+	--color-background-complimetary: #E5E8EB;
+}

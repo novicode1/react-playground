@@ -1,0 +1,4 @@
+.pointer-flyout {
+	pointer-events: none;
+	width: max-content;
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-weight: 400;
+  font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+  src: local('SF Pro Rounded Regular'), /* Windows */
+      local('SF-Pro-Rounded-Regular'), /* Mac OS */
+      url(/src/src/fonts/SFRounded-Regular.woff2) format('woff2'),
+      url(/src/fonts/SFRounded-Regular.woff) format('woff'),
+      url(/src/fonts/SFRounded-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+	font-display: swap;
+  src: local('SF Pro Rounded Medium'), /* Windows */
+      local('SF-Pro-Rounded-Medium'), /* Mac OS */
+      url(/src/fonts/SFRounded-Medium.woff2) format('woff2'),
+      url(/src/fonts/SFRounded-Medium.woff) format('woff'),
+      url(/src/fonts/SFRounded-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+	font-display: swap;
+  src: local('SF Pro Rounded Semibold'), /* Windows */
+      local('SF-Pro-Rounded-Semibold'), /* Mac OS */
+      url(/src/fonts/SFRounded-Semibold.woff) format('woff2'),
+      url(/src/fonts/SFRounded-Semibold.woff) format('woff'),
+      url(/src/fonts/SFRounded-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+	font-display: swap;
+  src: local('SF Pro Rounded Bold'), /* Windows */
+      local('SF-Pro-Rounded-Bold'), /* Mac OS */
+      url(/src/fonts/SFRounded-Bold.woff2) format('woff2'),
+      url(/src/fonts/SFRounded-Bold.woff) format('woff'),
+      url(/src/fonts/SFRounded-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+	font-display: swap;
+  src: local('SF Pro Rounded Heavy'), /* Windows */
+      local('SF-Pro-Rounded-Heavy'), /* Mac OS */
+      url(/src/fonts/SFRounded-Heavy.woff2) format('woff2'),
+      url(/src/fonts/SFRounded-Heavy.woff) format('woff'),
+      url(/src/fonts/SFRounded-Heavy.ttf) format('truetype');
+}

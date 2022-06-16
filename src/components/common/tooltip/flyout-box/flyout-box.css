@@ -1,0 +1,75 @@
+.flyout-box {
+	perspective: 1000px;
+	padding: 0 0.5em;
+	box-sizing: content-box;
+}
+
+.container {
+	margin-top: 12px;
+	position: relative;
+	transform-origin: top center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	cursor: default;
+	height: inherit;
+	max-height: inherit;
+	width: auto;
+	max-width: inherit;
+	min-width: inherit;
+}
+
+.arrow {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 50%;
+	top: 0;
+	border-top-left-radius: inherit;
+	background: var(--color-background-default);
+	transform: translate(-50%, -50%) rotate(45deg);
+	/* box-shadow: var(--volumetric-shadow), rgb(15, 15, 15, 0.2) 0px 9px 24px; */
+}
+
+.content {
+	position: relative;
+	height: inherit;
+	max-height: inherit;
+	width: inherit;
+	max-width: inherit;
+	min-width: inherit;
+	overflow: hidden;
+	overflow-y: auto;
+
+	box-shadow: var(--volumetric-shadow), rgb(15, 15, 15, 0.2) 0px 9px 24px;
+	background-color: var(--color-background-secondary);
+	border-radius: 0.5em;
+	padding: 0.5em;
+
+	border-radius: inherit;
+	text-transform: uppercase;
+	font-weight: 500;
+	transform: translateZ(0);
+}
+
+.enter .container {
+	opacity: 0;
+	transform: rotateX(-15deg);
+}
+
+.enter-active .container {
+	opacity: 1;
+	transform: rotateX(0);
+	transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.exit .container {
+	opacity: 1;
+	transform: rotateX(0);
+}
+
+.exit-active .container {
+	opacity: 0;
+	transform: rotateX(-15deg);
+	transition: transform 0.25s ease, opacity 0.25s ease;
+}

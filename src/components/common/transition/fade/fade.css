@@ -1,0 +1,32 @@
+.fade-appear-active,
+.fade-enter-active,
+.fade-exit-active {
+	transition-duration: 400ms;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
+
+.fade-appear {
+	opacity: 0;
+}
+.fade-appear-active {
+	opacity: 1;
+}
+.fade-enter {
+	opacity: 0;
+}
+.fade-enter-active {
+	opacity: 1;
+}
+.fade-enter-done {
+	opacity: 1;
+}
+.fade-exit {
+	opacity: 1;
+}
+.fade-exit-active {
+	opacity: 0;
+}
+.fade-exit-done {
+	opacity: 0;
+}

@@ -1,0 +1,8 @@
+:root {
+	--volumetric-shadow: 0 0 0 1px rgba(0,0,0,.05), 0 7px 25px 0 rgba(0,0,0,.03), 0 4px 12px 0 rgba(0,0,0,.03);
+	--flat-shadow: 0 0 0 2px rgba(0,0,0,.05);
+	--volumetric-inner-shadow: inset 0 0 0 0 rgba(255,255,255,0.25), inset 0 1px 0 0 rgba(255,255,255,0.06);
+
+	--smooth-animation: 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	--lazy-animation: 0.18s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
